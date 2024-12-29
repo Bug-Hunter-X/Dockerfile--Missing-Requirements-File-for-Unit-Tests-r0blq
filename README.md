@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: forgetting to install project dependencies before running commands.  The original `Dockerfile` attempts to run unit tests using `unittest`, but the required packages are not installed. The corrected `Dockerfile.fixed` shows how to install requirements using pip.
